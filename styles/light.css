@@ -11,6 +11,10 @@
 --background-image: url(/images/cover-image-light.png);
 --background-color: #FFF1F7;
 }
+
+.page.theme_light .decorated-zone__rec {
+  display: none;
+}
  
 @media (prefers-color-scheme: light) {
   :root {
@@ -25,5 +29,9 @@
   --article-title-color: var(--header__subtitle-color);
   --background-image: url(/images/cover-image-light.png);
   --background-color: #FFF1F7;
+  }
+
+  .page.theme_auto .decorated-zone__rec {
+    display: none;
   }
 }

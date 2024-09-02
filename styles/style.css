@@ -1,4 +1,5 @@
 .header {
+  min-block-size: 668px;
   block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -34,17 +35,7 @@
   top: 7px;
   right: -20px;
 }
-
-.page.theme_light .decorated-zone__rec {
-  display: none;
-}
-
-@media (prefers-color-scheme: light) {
-  .page.theme_auto .decorated-zone__rec {
-    display: none;
-  }
-}
-
+  w
 .decorated-zone::after {
   content: "";
   position: absolute;
@@ -245,13 +236,13 @@
 }
 
 @media (width>=1024px) {
-  .section__rows {
+  .section__about-concentration {
     gap: 16px;
   }
 }
 
 @media (width>=768px) {
-  .section__rows {
+  .section__about-concentration {
     flex-direction: row;
   }
 }
@@ -302,7 +293,7 @@
 }
 
 @media (width>=768px) {
-  .section__rows .section__title {
+  .section__about-concentration .section__title {
     inline-size: 32.5%;
   }
 }
@@ -314,7 +305,7 @@
 }
 
 @media (width>=768px) {
-  .section__columns .section__title {
+  .section__about-concentration-reductions .section__title {
     width: 30%;
   }
 }
@@ -334,13 +325,13 @@
 }
 
 @media (width>=1024px) {
-  .section__columns .article__list {
+  .section__about-concentration-reductions .article__list {
     flex-direction: row;
   }
 }
 
 @media (width>=768px) {
-  .section__columns .article__list {
+  .section__about-concentration-reductions .article__list {
     width: 100%;
     gap: 20px;
   }
@@ -353,7 +344,7 @@
 }
 
 @media (width>=1024px) {
-  .section__columns .article__list .article__list-item {
+  .section__about-concentration-reductions .article__list .article__list-item {
     inline-size: 31.9%;
   }
 }
@@ -363,6 +354,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  min-block-size: 668px;
   block-size: 100vh;
   margin-top: 40px;
 }
