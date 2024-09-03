@@ -35,7 +35,7 @@
   top: 7px;
   right: -20px;
 }
-  w
+
 .decorated-zone::after {
   content: "";
   position: absolute;
